@@ -1,5 +1,5 @@
 #header {
-  /* font-family: helvetica;
+  font-family: helvetica;
   border-style: solid;
   border-width: 2px;
   border-color: black;
@@ -12,6 +12,8 @@
   flex-wrap: nowrap;
 
 }
+
+
 
 #sign_in_button {
   height: auto;
