@@ -48,3 +48,12 @@ def get_logged_in_user(request_handler):
     # otherwise if they exist in both Google and our site, let's return them
     # now we can easily access their information
     return existing_user
+
+app = webapp2.WSGIApplication([
+    ('/', StartPage),
+    ('/home', HomePage),
+    ('/login', LoginPage),
+    ('/info_update', InfoUpdatePage),
+    ('/people', PeoplePage),
+    ('/img', ImagePage)
+], debug=True)
